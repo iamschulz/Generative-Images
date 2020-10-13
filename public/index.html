@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aurora</title>
+		<style>
+			body {
+				margin: 0;
+				background: black;
+				color: white;
+				font-family: sans-serif;
+			}
+
+			main {
+				display: grid;
+				place-items: center;
+				overflow: hidden;
+			}
+
+			h1 {
+				position: absolute;
+				top: 0;
+				width: 100%;
+				text-align: center;
+				font-weight: normal;
+				text-transform: uppercase;
+				letter-spacing: 0.4ch;
+				opacity: 0.2;
+			}
+
+			svg {
+				width: 100%;
+				height: 100vh;
+				max-width: min(70vh, 90vw);
+				transform: skew(0deg, -10deg);
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<h1>Aurora</h1>
+			<svg
+				version="1.1"
+				width="1920"
+				height="1080"
+				viewBox="0 -540 1920 1080"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<g id="base"></g>
+			</svg>
+		</main>
+
+		<script src="./aurora.js"></script>
+	</body>
+</html>
